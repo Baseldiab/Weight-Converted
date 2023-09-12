@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weight conversion tool</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main-header text-center py-3 bg-success">
+        <h1 class="main-head text-warning text-uppercase fw-bold">
+          <span><i class="fa-solid fa-award"></i></span> weight converted
+        </h1>
+      </section>
+
+      <!-- ============================================== -->
+
+      <section class="converting mt-5">
+        <div class="container">
+          <div
+            class="row g-3 justify-content-center align-items-center flex-wrap text-center mx-auto w-50 my-2"
+          >
+            <div class="col-md-10 col-12">
+              <form class="form" action="">
+                <div class="row align-items-center mb-1">
+                  <div class="col-sm-10">
+                    <input
+                      name="grams"
+                      type="number"
+                      min="0"
+                      class="form-control weightGrams text-center my-1 fs-5 fw-bold py-3"
+                      id="inputGrams"
+                      placeholder=" Weight In Grams"
+                    />
+                  </div>
+                  <label
+                    for="inputGrams"
+                    class="col-sm-2 fw-bold fs-5 col-form-label"
+                    >Grams</label
+                  >
+                </div>
+
+                <div class="row align-items-center mb-1">
+                  <div class="col-sm-10">
+                    <input
+                      name="kg"
+                      type="number"
+                      min="0"
+                      class="form-control weightKg kg text-center my-1 fs-5 fw-bold py-3"
+                      id="inputKg"
+                      placeholder=" Weight In kiloGrams"
+                    />
+                  </div>
+                  <label
+                    for="inputKg"
+                    class="col-sm-2 fw-bold fs-5 col-form-label"
+                    >KG</label
+                  >
+                </div>
+
+                <div class="row align-items-center mb-1">
+                  <div class="col-sm-10">
+                    <input
+                      name="ib"
+                      type="number"
+                      min="0"
+                      class="form-control weightIb ib text-center my-1 fs-5 fw-bold py-3"
+                      id="inputIb"
+                      placeholder=" Weight In IB"
+                    />
+                  </div>
+                  <label
+                    for="inputIb"
+                    class="col-sm-2 fw-bold fs-5 col-form-label"
+                    >IB</label
+                  >
+                </div>
+
+                <div class="row align-items-center mb-1">
+                  <div class="col-sm-10">
+                    <input
+                      name="ounces"
+                      type="number"
+                      min="0"
+                      class="form-control weightOunce ounces text-center my-1 fs-5 fw-bold py-3"
+                      id="inputOunce"
+                      placeholder=" Weight In ounces"
+                    />
+                  </div>
+                  <label
+                    for="inputOunce"
+                    class="col-sm-2 fw-bold fs-5 col-form-label"
+                    >Ounce</label
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- =================Start Footer==================== -->
+    <footer
+      class="text-center text-capitalize py-2 bg-body-tertiary text-secondary position-absolute start-0 end-0 bottom-0"
+    >
+      <p class="m-0">
+        All Right Reserved © <span class="footer-year"> 2023</span>-Basel Diab
+      </p>
+    </footer>
+
+    <!-- ====================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
